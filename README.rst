@@ -9,27 +9,6 @@ template.cpp
 .. code:: c++
 
 
-                             _oo0oo_ 
-                            o8888888o 
-                            88" . "88 
-                            (| -_- |) 
-                            0\  =  /0 
-                          ___/`---'\___ 
-                        .' \\|     |// '. 
-                       / \\|||  :  |||// \ 
-                      / _||||| -:- |||||- \ 
-                     |   | \\\  -  /// |   | 
-                     | \_|  ''\---/''  |_/ | 
-                     \  .-\__  '-'  ___/-. / 
-                   ___'. .'  /--.--\  `. .'___ 
-                ."" '<  `.___\_<|>_/___.' >' "". 
-               | | :  `- \`.;`\ _ /`;.`/ - ` : | | 
-               \  \ `_.   \_ __\ /__ _/   .-` /  / 
-           =====`-.____`.___ \_____/___.-`___.-'===== 
-                             `=---=' 
- 
-      
-      
       #include <bits/stdc++.h>  // This will work only for g++ compiler. 
       #define ll long long int
       using namespace std;
@@ -115,12 +94,10 @@ cpp code method 1
               
 python code
 
-.. code:: c++
+.. code:: python
 
-      string s;
-              cin >> s;
-              for(ll i = 0; i < s.length() - 4 ; i++)
-              {
-                  if(s.substr(i, 5) == "party")
-                      s.replace(i, 5, "pawri");
-              }            
+      T=int(input())
+      for x in range(T):
+          S=input()
+          x=S.replace('party','pawri')
+          print(x)   
